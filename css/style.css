@@ -55,9 +55,18 @@ body{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
+.bcn{
+    display: flex;
+    flex-direction:column-reverse;
+    background-color: rgb(174, 174, 174);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
 .margin{
     margin-left: 0%;
 }
+
 .imagen{
     width: 250px;
     height: 250px;
@@ -68,4 +77,57 @@ body{
 }
 .espaciado{
     margin-left: 7%;
+}
+.año{
+    display: flex;
+    flex-direction:column-reverse;
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    .column-2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .izq{
+        width: 100%;
+    }
+    .der{
+        width: 100%;
+    }
+    .texto-encima {
+        position: absolute;
+        top: 130px;
+        left: 420px;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .texto-encima2 {
+        position: absolute;
+        top: 200px;
+        left: 410px;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .espaciado{
+        margin-left: 2%;
+    }
+
 }
