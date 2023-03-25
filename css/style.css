@@ -34,9 +34,13 @@ body{
     text-align: center;
 }
 .columna-3{
-    width: 33,3;
+    width: 33.33%;
 }
 .imagen{
     width: 250px;
     height: 250px;
+}
+.row{
+    display: flex;
+    
 }
