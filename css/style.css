@@ -46,6 +46,9 @@ body{
 }
 .column-3{
     width: 33.33%;
+    float: left;
+    padding: 6%;
+    margin: 20px;
 }
 .idea{
     display: flex;
@@ -57,11 +60,12 @@ body{
 }
 .bcn{
     display: flex;
-    flex-direction:column-reverse;
-    background-color: rgb(174, 174, 174);
+    flex-direction:row;
+    background-color: rgba(0,0,0,0.473);
     color: white;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    margin: 0;
 }
 .margin{
     margin-left: 0%;
@@ -75,6 +79,17 @@ body{
     display: flex;
     
 }
+.espacio2{
+    margin-left: 110px;
+    color: black;
+}
+.top{
+    padding-top: 1%;
+
+}
+.black{
+    color: black;
+}
 .espaciado{
     margin-left: 7%;
 }
@@ -86,7 +101,29 @@ body{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
+.column-20{
+    float: left;
+    margin-left: 50px;
+    text-align: left;
+}
+.column-30{
+float: left;
+margin-left: 80px;
+text-align: left;
+}
+.iframe{
+    width:600px; 
+    height:350px;
+    border:0;
+}
 @media screen and (max-width:768px){
+    .imagen{
+        width: calc(150% - 5px);
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
+    }
     .column-2{
         display: flex;
         flex-wrap: wrap;
@@ -98,14 +135,15 @@ body{
     }
     .izq{
         width: 100%;
+        
     }
     .der{
         width: 100%;
     }
     .texto-encima {
         position: absolute;
-        top: 130px;
-        left: 420px;
+        top: 100px;
+        left: 320px;
         transform: translate(-50%, -50%);
         width: 65%;
         color: black;
@@ -116,8 +154,8 @@ body{
     }
     .texto-encima2 {
         position: absolute;
-        top: 200px;
-        left: 410px;
+        top: 170px;
+        left: 300px;
         transform: translate(-50%, -50%);
         width: 65%;
         color: black;
@@ -127,7 +165,28 @@ body{
         font-family: 'Quicksand', sans-serif;
     }
     .espaciado{
-        margin-left: 2%;
+        margin-left: 3%;
+    }
+    .espacio2{
+        margin-left: 50px;
+    }
+    .column-3 {
+        width: 30%;
+    }
+    .row {
+        display: flex;
+        flex-direction:column;
+    }
+    .dos{
+        float:left;
+
+    }
+    .imagen{
+        width: 200px;
+        height: 200px;
+    }
+    .iframe{
+    width: 800px;
     }
 
 }
